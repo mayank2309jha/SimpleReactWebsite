@@ -1,0 +1,92 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.place{
+  width: 30%;
+  padding: 20px;
+  margin: 20px;
+  background-color: lightgray;
+}
+.about{
+  width: 30%;
+  padding: 20px;
+  margin: 20px;
+  background-color: lightgreen;
+  margin-left: 500px;
+}
+.button{
+  padding: 10px 30px;
+  margin: 10px;
+}
+.contacts{
+  width: 30%;
+  padding: 20px;
+  margin: 20px;
+  background-color: royalblue;
+  margin-left: 500px;
+}
+.home{
+  width: 30%;
+  padding: 50px;
+  background-color: lightblue;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+.nav{
+  padding: 30px;
+  list-style-type: none;
+}
+.link{
+  width: 100px;
+  padding: 20px;
+  margin: 20px;
+  background-color: lightcoral;
+  border-radius: 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.products{
+  width: 100%;
+  padding: 20px;
+  background-color: lightgrey;
+}
+.product{
+  width: 20%;
+  background-color: rgb(93, 145, 233);
+}
+.img{
+  width: 100%;
+  height: 200px;
+  background-color:blue;
+}
+.sukuna{
+  width: 100%;
+  height: 200px;
+
+}
+.product h1{
+  margin: 20px;
+}
+.pro{
+  display: flex;
+  column-gap: 80px;
+}
+.intro{
+  margin-bottom: 30px;
+}
